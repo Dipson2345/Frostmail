@@ -16,7 +16,7 @@ This is a **demo prototype** designed for showcasing functionality, UI/UX, and A
 - Fully **self-contained**, runs offline in browser  
 - Logs persist using **localStorage**
 
----
+--
 
 Folder Structure
 
