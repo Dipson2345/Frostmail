@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frost Mail - AI Freelancer Emails</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>❄ Frost Mail</h1>
+      <p>Send AI-assisted emails to multiple clients in seconds</p>
+      <div class="snow"></div>
+    </header>
+
+    <main>
+      <section id="inputSection">
+        <h2>Step 1: Add Clients</h2>
+        <textarea id="clientList" placeholder="Enter client emails, one per line"></textarea>
+
+        <h2>Step 2: Write Template</h2>
+        <input type="text" id="subjectTemplate" placeholder="Email Subject (use {name})">
+        <textarea id="bodyTemplate" placeholder="Email Body (use {name} to personalize)"></textarea>
+        <button id="aiSuggestBtn">AI Suggest Subject & Body</button>
+        <button id="sendBtn">Generate & Send</button>
+      </section>
+
+      <section id="sentSection">
+        <h2>Sent Emails</h2>
+        <ul id="sentEmails"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
